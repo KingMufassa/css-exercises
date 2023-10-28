@@ -3,7 +3,15 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
+
+/* Neste caso podera ser centrado a .box usando no .container a propriedade
+ALIGN-ITEMS, ou na .box a propriedade ALIGN-SELF */
+
 
 .box {
   background: palevioletred;
@@ -12,4 +20,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* align-self: center; */ 
 }
