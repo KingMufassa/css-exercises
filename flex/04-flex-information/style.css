@@ -24,7 +24,8 @@ img {
 
 .item {
   max-width: 200px;
-  text-align: center;
+  text-align: center; 
+  /* text-align podia estar no body */
 }
 
 .text {
