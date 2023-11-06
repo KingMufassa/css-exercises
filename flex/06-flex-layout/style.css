@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
 }
 
 input {
@@ -35,9 +36,6 @@ input {
   justify-content: space-between;
   margin: 8px;
   padding: 8px;
-}
-.container{
-  margin-top: auto;
 }
 
 .footer {
@@ -65,8 +63,11 @@ a {
   color: black;
 }
 
-/* .content {
-  flex-direction: row;
+.content {
+  flex: 1;
+  flex-direction: column;
   display: flex;
+  align-items: center;
   justify-content: center;
-} */
+  gap: 16px;
+}
