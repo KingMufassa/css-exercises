@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -25,3 +27,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My Edit */
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 8px;
+}
+.container{
+  margin-top: auto;
+}
+
+.footer {
+  background: lightgrey;
+}
+
+div .left-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+div .right-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .content {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+} */
